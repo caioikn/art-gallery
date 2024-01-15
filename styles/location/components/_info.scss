@@ -1,0 +1,95 @@
+@import '../../mixins/display';
+
+main {
+  background-color: #151515;
+}
+
+.main-wrapper {
+  @include display-flex(flex, column);
+  gap: 3rem;
+  padding: 3rem 1rem 3.5rem 1rem;
+
+  h1 {
+    color: #FFFFFF;
+    font-size: 3.125rem;
+    line-height: 90%;
+    text-transform: uppercase;
+  }
+
+  div {
+    @include display-flex(flex, column);
+    color: #FFFFFF;
+    font-size: 1.125rem;
+    gap: 1.25rem;
+    line-height: 1.75rem;
+
+    h2 {
+      color: #D5966C;
+      font-size: 2rem;
+      line-height: 100%;
+      text-transform: uppercase;
+    }
+
+    div {
+      gap: 0;
+    }
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-wrapper {
+    flex-direction: row;
+    gap: 4.25rem;
+    padding: 5.5rem 2.5rem 5rem 2.5rem;
+
+    h1 {
+      font-size: 3.4375rem;
+      line-height: 3.125rem;
+    }
+
+    div {
+      p {
+        width: 24.875rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .main-wrapper {
+    gap: 0;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1110px;
+    padding: 6.5rem 0 8rem 0;
+
+    h1 {
+      font-size: 4.375rem;
+      line-height: 100%;
+      width: 21.875rem;
+    }
+
+    div {
+      gap: 1.5rem;
+      font-size: 1.375rem;
+
+      h2 {
+        font-size: 2.25rem;
+      }
+
+      div {
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        font-size: 1.375rem;
+        width: 33.75rem;
+      }
+    }
+  }
+}

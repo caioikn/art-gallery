@@ -1,0 +1,64 @@
+@import '../../mixins/display';
+
+footer {
+  background-color: #D5966C;
+}
+
+.footer-wrapper {
+  @include display-flex(flex, column);
+  align-items: flex-start;
+  color: #151515;
+  gap: 2.38rem;
+  line-height: 1.625rem;
+  padding: 3rem 2rem;
+
+  .socials {
+    @include display-flex(flex, row);
+    align-items: center;
+    gap: 1.25rem;
+
+    .facebook,
+    .instagram,
+    .twitter {
+      cursor: pointer;
+
+      &:hover svg path {
+        fill: #FFFFFF;
+      }
+    }
+
+    svg path {
+      fill: #151515;
+      transition: fill 0.2s;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer-wrapper {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 0;
+    padding: 3.5rem 2.5rem;
+
+    p {
+      margin: 0 8.31rem 0 4.06rem;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-wrapper {
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1110px;
+    padding: 5rem 0;
+
+    p {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      margin: 0 17.5rem 0 8.78rem;
+      width: 26.875rem;
+    }
+  }
+}
