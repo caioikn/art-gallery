@@ -277,13 +277,13 @@ a {
     line-height: 2rem;
   }
   main .gallery .gallery__picture-one {
-    background-image: url("../../../assets/images/image-grid-1.jpg");
+    background-image: url("../../assets/images/image-grid-1.jpg");
   }
   main .gallery .gallery__picture-two {
-    background-image: url("../../../assets/images/image-grid-2.jpg");
+    background-image: url("../../assets/images/image-grid-2.jpg");
   }
   main .gallery .gallery__picture-three {
-    background-image: url("../../../assets/images/image-grid-3.jpg");
+    background-image: url("../../assets/images/image-grid-3.jpg");
     width: 28rem;
   }
   main .gallery .gallery__invitation {
