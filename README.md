@@ -18,7 +18,7 @@ O projeto é um desafio proposto no site Frontend Mentor, envolvendo a criação
 ## 🔗 Links
 - [Frontend Mentor](https://www.frontendmentor.io/solutions/art-gallery-website-Q2K55Qiluy)
 - [Deploy](https://caioikn.github.io/art-gallery/)
-- [Baixar os arquivos](https://github.com/caioikn/art-gallery/archive/main/art-gallery.zip).
+- [Baixar os arquivos](https://github.com/caioikn/art-gallery/archive/main/art-gallery.zip)
 
 ## 🧑🏻‍💻 Autor
 **Desenvolvido por [Caio](https://www.linkedin.com/in/caioikena/)** 💙
